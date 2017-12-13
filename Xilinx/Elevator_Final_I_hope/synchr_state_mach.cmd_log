@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.xst" -ofn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/uncc.edu/usr/j/mtraynha/linux/Desktop/UCF.ucf -p xc3s500e-fg320-4 synchr_state_mach.ngc synchr_state_mach.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o synchr_state_mach_map.ncd synchr_state_mach.ngd synchr_state_mach.pcf 
+par -w -intstyle ise -ol high -t 1 synchr_state_mach_map.ncd synchr_state_mach.ncd synchr_state_mach.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml synchr_state_mach.twx synchr_state_mach.ncd -o synchr_state_mach.twr synchr_state_mach.pcf 
+bitgen -intstyle ise -f synchr_state_mach.ut synchr_state_mach.ncd 
+xst -intstyle ise -ifn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.xst" -ofn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/uncc.edu/usr/j/mtraynha/linux/Desktop/UCF.ucf -p xc3s500e-fg320-4 synchr_state_mach.ngc synchr_state_mach.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o synchr_state_mach_map.ncd synchr_state_mach.ngd synchr_state_mach.pcf 
+par -w -intstyle ise -ol high -t 1 synchr_state_mach_map.ncd synchr_state_mach.ncd synchr_state_mach.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml synchr_state_mach.twx synchr_state_mach.ncd -o synchr_state_mach.twr synchr_state_mach.pcf 
+bitgen -intstyle ise -f synchr_state_mach.ut synchr_state_mach.ncd 
+xst -intstyle ise -ifn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.xst" -ofn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/uncc.edu/usr/j/mtraynha/linux/Desktop/UCF.ucf -p xc3s500e-fg320-4 synchr_state_mach.ngc synchr_state_mach.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o synchr_state_mach_map.ncd synchr_state_mach.ngd synchr_state_mach.pcf 
+par -w -intstyle ise -ol high -t 1 synchr_state_mach_map.ncd synchr_state_mach.ncd synchr_state_mach.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml synchr_state_mach.twx synchr_state_mach.ncd -o synchr_state_mach.twr synchr_state_mach.pcf 
+bitgen -intstyle ise -f synchr_state_mach.ut synchr_state_mach.ncd 
+xst -intstyle ise -ifn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.xst" -ofn "/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /afs/uncc.edu/usr/j/mtraynha/linux/Desktop/UCF.ucf -p xc3s500e-fg320-4 synchr_state_mach.ngc synchr_state_mach.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o synchr_state_mach_map.ncd synchr_state_mach.ngd synchr_state_mach.pcf 
+par -w -intstyle ise -ol high -t 1 synchr_state_mach_map.ncd synchr_state_mach.ncd synchr_state_mach.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml synchr_state_mach.twx synchr_state_mach.ncd -o synchr_state_mach.twr synchr_state_mach.pcf 
+bitgen -intstyle ise -f synchr_state_mach.ut synchr_state_mach.ncd 

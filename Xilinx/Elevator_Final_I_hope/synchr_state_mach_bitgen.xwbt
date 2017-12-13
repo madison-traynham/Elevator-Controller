@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.ncd
+OUTFILE=/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope/synchr_state_mach.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/afs/uncc.edu/usr/j/mtraynha/linux/apps/xilinx/Elevator_Final_I_hope
+LICENSE=ISE
+USER_INFO=174150896_174150897_209847052_421

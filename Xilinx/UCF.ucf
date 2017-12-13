@@ -1,0 +1,35 @@
+##Last Updated 4/11/13 ##
+
+Net clk LOC="B8";
+Net buttons(0) LOC="B18";
+Net buttons(1) LOC="D18";
+Net buttons(2) LOC="E18";
+Net buttons(3) LOC="H13";
+
+Net em_s Loc="G18";
+Net open_close Loc="H18";
+
+Net zout(0) LOC="E17";
+Net zout(1) LOC="P15";
+Net zout(2) LOC="F4";
+Net zout(3) LOC="R4";
+
+Net motor_up Loc ="K14";
+Net motor_down Loc = "K15";
+
+Net door Loc = "J15";
+Net stop Loc= "J14";
+
+Net seven_segment(0) loc="H14";
+Net seven_segment(1) loc="J17";
+Net seven_segment(2) loc="G14";
+Net seven_segment(3) loc="D16";
+Net seven_segment(4) loc="D17";
+Net seven_segment(5) loc="F18";
+Net seven_segment(6) loc="L18";
+
+Net anode(0) loc="F17";
+Net anode(1) loc="H17";
+Net anode(2) loc="C18";
+Net anode(3) loc="F15";
+

@@ -1,0 +1,9 @@
+V3 3
+FL "/afs/uncc.edu/usr/j/mtraynha/linux/apps/vsim/Final controller.vhd" 2013/04/23.07:53:43 P.15xf
+EN work/synchr_state_mach 1366718201 \
+      FL "/afs/uncc.edu/usr/j/mtraynha/linux/apps/vsim/Final controller.vhd" \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 \
+      PB ieee/std_logic_arith 1335251623
+AR work/synchr_state_mach/behavioral 1366718202 \
+      FL "/afs/uncc.edu/usr/j/mtraynha/linux/apps/vsim/Final controller.vhd" \
+      EN work/synchr_state_mach 1366718201
